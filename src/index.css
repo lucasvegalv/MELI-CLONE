@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --clr-primary: #FFE600;
+  --clr-white: #FFFFFF; 
+  --clr-gray-200: #BFBFBF;
+  --clr-gray-500: #363636;  
+  --clr-black: #000000;
+  --clr-blue: #3484FA; 
+  --clr-green: #00A650;
+   
+
+  --fontfamily: "Montserrat", sans-serif;;
+}
+
+body {
+  font-family: var(--fontfamily);
+  margin: 0;
+}
